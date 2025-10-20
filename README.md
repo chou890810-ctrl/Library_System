@@ -91,33 +91,33 @@ test@demo.com
 ⚙️ 技術架構   
 模組	功能  
 DAO 層	負責資料庫操作（BookDao、MemberDao、LoanDao）  
-Service 層	處理商業邏輯（借書、還書、罰金、Session 管理）
-UI 層	使用 Java Swing 建構圖形介面
-Util 工具類	包含 DbConnection、PasswordUtil、SessionManager
-🧱 系統功能說明
-模組	功能說明
-🔐 LoginUI	會員登入（支援 SHA-256 雜湊驗證）
-📝 RegisterUI	新會員註冊並自動加密密碼
-🏠 LibraryMainUI	主選單：顯示登入資訊與四大功能入口
-📖 BorrowBookUI	借書功能：檢查庫存、減少庫存、建立借閱紀錄
-📕 ReturnBookUI	還書功能：更新狀態、恢復庫存、計算罰金
-📜 BorrowHistoryUI	借閱紀錄查詢與 Excel 匯出
-📊 ExcelReport	使用 Apache POI 將紀錄輸出成報表
-🧰 使用技術
-類別	名稱
-語言	Java
-介面	Java Swing
-資料庫	MySQL 8.x
-加密	SHA-256（PasswordUtil）
-架構	MVC + DAO
-套件	Apache POI（Excel 匯出）
-IDE	Eclipse / IntelliJ
-Build 工具	Maven
-🖼️ 介面展示
-登入畫面	主畫面
-(可放入 LoginUI 截圖)	(可放入 LibraryMainUI 截圖)
-📦 專案結構
-```bash
+Service 層	處理商業邏輯（借書、還書、罰金、Session 管理）  
+UI 層	使用 Java Swing 建構圖形介面  
+Util 工具類	包含 DbConnection、PasswordUtil、SessionManager  
+🧱 系統功能說明  
+模組	功能說明  
+🔐 LoginUI	會員登入（支援 SHA-256 雜湊驗證）  
+📝 RegisterUI	新會員註冊並自動加密密碼  
+🏠 LibraryMainUI	主選單：顯示登入資訊與四大功能入口  
+📖 BorrowBookUI	借書功能：檢查庫存、減少庫存、建立借閱紀錄  
+📕 ReturnBookUI	還書功能：更新狀態、恢復庫存、計算罰金  
+📜 BorrowHistoryUI	借閱紀錄查詢與 Excel 匯出  
+📊 ExcelReport	使用 Apache POI 將紀錄輸出成報表  
+🧰 使用技術  
+類別	名稱  
+語言	Java  
+介面	Java Swing  
+資料庫	MySQL 8.x  
+加密	SHA-256（PasswordUtil）  
+架構	MVC + DAO  
+套件	Apache POI（Excel 匯出）  
+IDE	Eclipse / IntelliJ  
+Build 工具	Maven  
+🖼️ 介面展示  
+登入畫面	主畫面  
+(可放入 LoginUI 截圖)	(可放入 LibraryMainUI 截圖)  
+📦 專案結構  
+```bash  
 src/
  ├── dao/                  # DAO 介面層
  ├── dao/impl/             # DAO 實作層
@@ -127,12 +127,12 @@ src/
  ├── ui/                   # Swing 介面
  └── util/                 # 工具類 (DbConnection, PasswordUtil, SessionManager)
 ```
-👨‍💻 作者資訊
+👨‍💻 作者資訊  
 
-開發者：周志陽 (Zhiyang Chou)
+開發者：周志陽 (Zhiyang Chou)  
 
-GitHub Repo： Library_System
+GitHub Repo： Library_System  
 
-開發時間：2025 年
+開發時間：2025 年  
 
-課程名稱：巨匠 Java 雲端程式設計實務班
+課程名稱：巨匠 Java 雲端程式設計實務班  
