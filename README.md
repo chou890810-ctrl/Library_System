@@ -51,7 +51,8 @@ CREATE TABLE loan (
   returned_at DATETIME,
   status VARCHAR(20),
   fine_amount DOUBLE
-);```
+);
+```
 4️⃣ 修改資料庫設定
 請打開 util/DbConnection.java，依照你的環境修改設定：
 
@@ -138,4 +139,5 @@ GitHub Repo： Library_System
 
 
 課程名稱：巨匠 Java 雲端程式設計實務班
+
 
