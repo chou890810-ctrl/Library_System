@@ -51,7 +51,7 @@ CREATE TABLE loan (
   returned_at DATETIME,
   status VARCHAR(20),
   fine_amount DOUBLE
-);
+);```
 #####4️⃣ 修改資料庫設定
 請打開 util/DbConnection.java，依照你的環境修改資料庫連線設定：
 
