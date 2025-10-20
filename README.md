@@ -149,7 +149,7 @@ java -jar Library_System.jar
 
 | 登入畫面 | 主畫面 |
 |-----------|-----------|
-| ![LoginUI](https://github.com/chou890810-ctrl/Library_System/blob/main/LibrarySystem/src/main/resources/images/LoginUI.png) ||
+| ![LoginUI](https://github.com/chou890810-ctrl/Library_System/blob/main/LibrarySystem/src/main/resources/images/LoginUI.png) |![LoginUI](https://github.com/chou890810-ctrl/Library_System/blob/main/LibrarySystem/src/main/resources/images/LibraryMainUI.png)|
 
 ---
 
