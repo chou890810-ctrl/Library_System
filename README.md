@@ -22,7 +22,7 @@ yaml
 在 MySQL 中執行以下指令建立資料庫：
 
 ```sql
-CREATE DATABASE library_system CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE library_system CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;---
 3️⃣ 匯入資料表
 sql
 複製程式碼
