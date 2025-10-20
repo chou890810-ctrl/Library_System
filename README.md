@@ -14,9 +14,6 @@ src/
 images/
 Library_System.jar
 
-yaml
-複製程式碼
-
 ---
 
 ### 2️⃣ 建立資料庫
@@ -24,9 +21,10 @@ yaml
 
 ```sql
 CREATE DATABASE library_system CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+```
 3️⃣ 匯入資料表
-sql
-複製程式碼
+```sql
+
 CREATE TABLE member (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50),
@@ -53,15 +51,15 @@ CREATE TABLE loan (
   returned_at DATETIME,
   status VARCHAR(20),
   fine_amount DOUBLE
-);
+);```
 4️⃣ 修改資料庫設定
 請打開 util/DbConnection.java，依照你的環境修改設定：
 
-java
-複製程式碼
+```java
+
 private static final String URL = "jdbc:mysql://localhost:3306/library_system?serverTimezone=UTC";
 private static final String USER = "root";
-private static final String PASSWORD = "你的MySQL密碼";
+private static final String PASSWORD = "你的MySQL密碼";```
 5️⃣ 執行方式
 方法一：執行 JAR 檔
 
@@ -136,5 +134,6 @@ src/
 GitHub Repo： Library_System
 
 開發時間：2025 年
+
 
 課程名稱：巨匠 Java 雲端程式設計實務班
