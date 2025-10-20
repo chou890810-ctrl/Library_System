@@ -15,7 +15,7 @@ CREATE DATABASE library_system CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 　使用以下 SQL（或附檔中的 library_system.sql）：
 
 sql
-複製程式碼
+
 CREATE TABLE member (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50),
@@ -47,7 +47,7 @@ CREATE TABLE loan (
 　請修改你的 MySQL 帳號密碼，例如：
 
 java
-複製程式碼
+
 private static final String URL = "jdbc:mysql://localhost:3306/library_system?serverTimezone=UTC";
 private static final String USER = "root";
 private static final String PASSWORD = "你的密碼";
@@ -59,7 +59,7 @@ private static final String PASSWORD = "你的密碼";
 若使用 jar：
 
 bash
-複製程式碼
+
 java -jar Library_System.jar
 6️⃣ 測試流程
 
