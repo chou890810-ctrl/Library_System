@@ -149,7 +149,7 @@ java -jar Library_System.jar
 
 | 登入畫面 | 主畫面 |
 |-----------|-----------|
-| *(可放入 LoginUI 截圖)* | *(可放入 LibraryMainUI 截圖)* |
+|![LoginUI](images/LoginUI.png) | ![MainUI](images/LibraryMainUI.png) |
 
 ---
 
