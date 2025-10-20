@@ -20,6 +20,7 @@ yaml
 
 ### 2️⃣ 建立資料庫
 在 MySQL 中執行以下指令建立資料庫：
+
 ```sql
 CREATE DATABASE library_system CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 3️⃣ 匯入資料表
@@ -53,7 +54,7 @@ CREATE TABLE loan (
   fine_amount DOUBLE
 );
 4️⃣ 修改資料庫設定
-請打開 util/DbConnection.java，依照你的環境修改資料庫連線設定：
+請打開 util/DbConnection.java，依照你的環境修改：
 
 java
 複製程式碼
@@ -61,10 +62,15 @@ private static final String URL = "jdbc:mysql://localhost:3306/library_system?se
 private static final String USER = "root";
 private static final String PASSWORD = "你的MySQL密碼";
 5️⃣ 執行方式
-✅ 方法一：執行 JAR 檔
+✅ 方法一：JAR 檔
+
 bash
 複製程式碼
 java -jar Library_System.jar
+yaml
+複製程式碼
+
+---
 ✅ 方法二：使用 Eclipse / IntelliJ
 匯入 Maven 專案
 
