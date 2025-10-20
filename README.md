@@ -59,7 +59,8 @@ CREATE TABLE loan (
 
 private static final String URL = "jdbc:mysql://localhost:3306/library_system?serverTimezone=UTC";
 private static final String USER = "root";
-private static final String PASSWORD = "你的MySQL密碼";```
+private static final String PASSWORD = "你的MySQL密碼";
+```
 5️⃣ 執行方式
 方法一：執行 JAR 檔
 
@@ -137,3 +138,4 @@ GitHub Repo： Library_System
 
 
 課程名稱：巨匠 Java 雲端程式設計實務班
+
