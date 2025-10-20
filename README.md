@@ -101,7 +101,7 @@ java -jar Library_System.jar
 
 | Email | 密碼 |
 |--------|------|
-| test@demo.com | 1234 |
+| 123 | 123 |
 
 ---
 
