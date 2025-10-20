@@ -22,9 +22,9 @@ yaml
 在 MySQL 中執行以下指令建立資料庫：
 ```sql
 CREATE DATABASE library_system CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-3️⃣ 匯入資料表
-sql
-複製程式碼
+####3️⃣ 匯入資料表
+```sql
+
 CREATE TABLE member (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50),
@@ -52,25 +52,25 @@ CREATE TABLE loan (
   status VARCHAR(20),
   fine_amount DOUBLE
 );
-4️⃣ 修改資料庫設定
+#####4️⃣ 修改資料庫設定
 請打開 util/DbConnection.java，依照你的環境修改資料庫連線設定：
 
-java
-複製程式碼
+```java
+
 private static final String URL = "jdbc:mysql://localhost:3306/library_system?serverTimezone=UTC";
 private static final String USER = "root";
 private static final String PASSWORD = "你的MySQL密碼";
-5️⃣ 執行方式
+######5️⃣ 執行方式
 ✅ 方法一：執行 JAR 檔
-bash
-複製程式碼
+```bash
+
 java -jar Library_System.jar
 ✅ 方法二：使用 Eclipse / IntelliJ
 匯入 Maven 專案
 
 右鍵執行 src/ui/LoginUI.java
 
-6️⃣ 系統操作流程
+########6️⃣ 系統操作流程
 步驟	操作說明	預期結果
 ①	點選「註冊」新增會員帳號	顯示「註冊成功」
 ②	登入系統	顯示主畫面與帳號資訊
@@ -79,7 +79,7 @@ java -jar Library_System.jar
 ⑤	點選「借閱紀錄」	顯示歷史清單，可匯出 Excel
 ⑥	點選「登出」	返回登入畫面
 
-7️⃣ 測試帳號（可自行新增）
+########7️⃣ 測試帳號（可自行新增）
 Email	密碼
 test@demo.com	1234
 
@@ -116,8 +116,8 @@ Build 工具	Maven
 (可放入 LoginUI 截圖)	(可放入 LibraryMainUI 截圖)
 
 📦 專案結構
-bash
-複製程式碼
+```bash
+
 src/
  ├── dao/                  # DAO 介面層
  ├── dao/impl/             # DAO 實作層
@@ -135,5 +135,5 @@ GitHub Repo： Library_System
 
 課程名稱：巨匠 Java 雲端程式設計實務班
 
-yaml
-複製程式碼
+```yaml
+
