@@ -84,18 +84,16 @@ java -jar Library_System.jar
 ④	點選「還書」	可選擇借閱紀錄進行歸還
 ⑤	點選「借閱紀錄」	顯示歷史清單，可匯出 Excel
 ⑥	點選「登出」	返回登入畫面
-
 7️⃣ 測試帳號（可自行新增）
 Email	密碼
-test@demo.com	1234
-
+test@demo.com
+	1234
 ⚙️ 技術架構
 模組	功能
 DAO 層	負責資料庫操作（BookDao、MemberDao、LoanDao）
 Service 層	處理商業邏輯（借書、還書、罰金、Session 管理）
 UI 層	使用 Java Swing 建構圖形介面
 Util 工具類	包含 DbConnection、PasswordUtil、SessionManager
-
 🧱 系統功能說明
 模組	功能說明
 🔐 LoginUI	會員登入（支援 SHA-256 雜湊驗證）
@@ -105,7 +103,6 @@ Util 工具類	包含 DbConnection、PasswordUtil、SessionManager
 📕 ReturnBookUI	還書功能：更新狀態、恢復庫存、計算罰金
 📜 BorrowHistoryUI	借閱紀錄查詢與 Excel 匯出
 📊 ExcelReport	使用 Apache POI 將紀錄輸出成報表
-
 🧰 使用技術
 類別	名稱
 語言	Java
@@ -116,14 +113,11 @@ Util 工具類	包含 DbConnection、PasswordUtil、SessionManager
 套件	Apache POI（Excel 匯出）
 IDE	Eclipse / IntelliJ
 Build 工具	Maven
-
 🖼️ 介面展示
 登入畫面	主畫面
 (可放入 LoginUI 截圖)	(可放入 LibraryMainUI 截圖)
-
 📦 專案結構
-bash
-複製程式碼
+```bash
 src/
  ├── dao/                  # DAO 介面層
  ├── dao/impl/             # DAO 實作層
@@ -132,7 +126,9 @@ src/
  ├── service/impl/         # 業務邏輯實作
  ├── ui/                   # Swing 介面
  └── util/                 # 工具類 (DbConnection, PasswordUtil, SessionManager)
+```
 👨‍💻 作者資訊
+
 開發者：周志陽 (Zhiyang Chou)
 
 GitHub Repo： Library_System
