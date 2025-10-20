@@ -77,20 +77,20 @@ java -jar Library_System.jar
 右鍵執行 src/ui/LoginUI.java
 
 6️⃣ 系統操作流程
-步驟	操作說明	預期結果
-①	點選「註冊」新增會員帳號	顯示「註冊成功」
-②	登入系統	顯示主畫面與帳號資訊
-③	點選「借書」	顯示書籍清單，可借閱庫存書
-④	點選「還書」	可選擇借閱紀錄進行歸還
-⑤	點選「借閱紀錄」	顯示歷史清單，可匯出 Excel
-⑥	點選「登出」	返回登入畫面
-7️⃣ 測試帳號（可自行新增）
-Email	密碼
-test@demo.com
-	1234
-⚙️ 技術架構
-模組	功能
-DAO 層	負責資料庫操作（BookDao、MemberDao、LoanDao）
+步驟	操作說明	預期結果  
+①	點選「註冊」新增會員帳號	顯示「註冊成功」  
+②	登入系統	顯示主畫面與帳號資訊  
+③	點選「借書」	顯示書籍清單，可借閱庫存書  
+④	點選「還書」	可選擇借閱紀錄進行歸還  
+⑤	點選「借閱紀錄」	顯示歷史清單，可匯出 Excel  
+⑥	點選「登出」	返回登入畫面  
+7️⃣ 測試帳號（可自行新增）  
+Email	密碼  
+test@demo.com  
+	1234  
+⚙️ 技術架構   
+模組	功能  
+DAO 層	負責資料庫操作（BookDao、MemberDao、LoanDao）  
 Service 層	處理商業邏輯（借書、還書、罰金、Session 管理）
 UI 層	使用 Java Swing 建構圖形介面
 Util 工具類	包含 DbConnection、PasswordUtil、SessionManager
