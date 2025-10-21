@@ -1,4 +1,4 @@
-# 📚 Library Management System (圖書館管理系統)
+# 📚 Library System (圖書館系統)
 
 一個使用 **Java Swing + MySQL** 開發的桌面應用程式，提供會員登入、註冊、借書、還書、查詢借閱紀錄與匯出 Excel 功能。  
 採用 **MVC 架構 + DAO 模式**，以 **Maven** 管理相依套件，並實作會員登入驗證與 Session 管理。
