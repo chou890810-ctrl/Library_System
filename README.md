@@ -140,7 +140,7 @@ java -jar Library_System.jar
 | 加密 | SHA-256（PasswordUtil） |
 | 架構 | MVC + DAO |
 | 套件 | Apache POI（Excel 匯出） |
-| IDE | Eclipse / IntelliJ |
+| IDE | Eclipse |
 | Build 工具 | Maven |
 
 ---
